@@ -21,16 +21,49 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
+  text-align: center;
+}
+.form label {
+  font-size: 1rem;
+  font-weight: 700;
 }
 input {
   outline: none;
   padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 .submit-btn {
   width: 60%;
+  font-size: 1rem;
+  font-weight: 800;
+  background-color: #a8dadc;
+  border: 2px solid #a8dadc;
+  border-radius: 5px;
 }
 .display-container {
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 12rem;
   border: 2px solid #fff;
+  padding: 0.5rem;
+}
+.displayList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+.bin-icon {
+  margin-top: 0.25rem;
+  padding: 0.12rem 0.35rem;
+  background-color: #e63946;
+  border-radius: 10px;
+}
+.edit-icon {
+  margin-top: 0.25rem;
+  padding: 0.12rem 0.35rem;
+  background-color: #457b9d;
+  border-radius: 10px;
 }

@@ -24,8 +24,10 @@ formEl.addEventListener("submit", (e) => {
   if (teamValue === "" && playerValue === "") {
     alert("Fill The Fields");
   } else {
-    let createNew = document.createElement("li");
+    let createNew = document.createElement("p");
     createNew.className = "displayList";
-    displayEl.appendChild();
+    createNew.innerHTML = `<small class="displayValue">${teamValue}</small> <small class="displayValue">${playerValue}</small> <small class="bin-icon">🗑️</small><small class="edit-icon">✎</small>`;
+    displayEl.appendChild(createNew);
+    console.log(createNew);
   }
 });
